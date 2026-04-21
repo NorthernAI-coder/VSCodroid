@@ -16,7 +16,7 @@ ASSETS_DIR="$ROOT_DIR/android/app/src/main/assets"
 JNILIBS_DIR="$ROOT_DIR/android/app/src/main/jniLibs/arm64-v8a"
 WORK_DIR="$ROOT_DIR/toolchains/termux-packages"
 
-TERMUX_REPO="${TERMUX_MIRROR:-https://packages.termux.dev/apt/termux-main}"
+TERMUX_REPO="${TERMUX_MIRROR:-https://mirror.mwt.me/termux/main}"
 PACKAGES_URL="$TERMUX_REPO/dists/stable/main/binary-aarch64/Packages"
 
 PYTHON_MAJOR_MINOR="3.12"

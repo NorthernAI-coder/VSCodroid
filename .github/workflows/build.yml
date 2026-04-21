@@ -97,8 +97,6 @@ jobs:
 
       - name: Download Python
         if: steps.cache-assets.outputs.cache-hit != 'true'
-        env:
-          TERMUX_MIRROR: https://mirror.mwt.me/termux/main
         run: bash scripts/download-python.sh
 
       - name: Download extensions

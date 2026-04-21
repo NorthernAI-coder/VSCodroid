@@ -74,8 +74,6 @@ jobs:
         run: bash scripts/download-npm.sh
 
       - name: Download Python
-        env:
-          TERMUX_MIRROR: https://mirror.mwt.me/termux/main
         run: bash scripts/download-python.sh
 
       - name: Download extensions
